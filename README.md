@@ -12,7 +12,7 @@ Additionally it is necesarry to install python and the reuired packages listed i
 ### Running the python code
 After installing the required packages one would be able to use the jupyter notebooks provided. There is one for the predefined scenarios in the root of the python folder. furthermore there is one for the in_building scenarios which is build to traverse the individual scenarios. 
 
-### Running the prolog
+### Running Prolog
 As a part of this project we have provided a Makefile, which encapsulates the commands for running different instances. 
 
 ```console
