@@ -1,0 +1,32 @@
+{
+    "1/": {
+        "railing_length": 620,
+        "railing_height": 100,
+        "num_poles": 4,
+        "num_boards": 3
+    },
+    "2/": {
+        "railing_length": 480,
+        "railing_height": 120,
+        "num_poles": 4,
+        "num_boards": 3
+    },
+    "3/": {
+        "railing_length": 140,
+        "railing_height": 90,
+        "num_poles": 2,
+        "num_boards": 1
+    },
+    "4/": {
+        "railing_length": 140,
+        "railing_height": 90,
+        "num_poles": 2,
+        "num_boards": 1
+    },
+    "6/": {
+        "railing_length": 175,
+        "railing_height": 100,
+        "num_poles": 2,
+        "num_boards": 3
+    }
+}

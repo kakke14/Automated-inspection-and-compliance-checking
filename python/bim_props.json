@@ -1,0 +1,134 @@
+{
+    "scen1.pcd": {
+        "railing_length": 420,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen2.pcd": {
+        "railing_length": 420,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen3.pcd": {
+        "railing_length": 400,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen4.pcd": {
+        "railing_length": 460,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen5.pcd": {
+        "railing_length": 430,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen6.pcd": {
+        "railing_length": 420,
+        "railing_height": 130,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen7.pcd": {
+        "railing_length": 380,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen8.pcd": {
+        "railing_length": 425,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen9.pcd": {
+        "railing_length": 370,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen10.pcd": {
+        "railing_length": 350,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen11.pcd": {
+        "railing_length": 350,
+        "railing_height": 130,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen12.pcd": {
+        "railing_length": 460,
+        "railing_height": 150,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen13.pcd": {
+        "railing_length": 430,
+        "railing_height": 130,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen14.pcd": {
+        "railing_length": 420,
+        "railing_height": 130,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen15.pcd": {
+        "railing_length": 390,
+        "railing_height": 130,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen16.pcd": {
+        "railing_length": 400,
+        "railing_height": 130,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen17.pcd": {
+        "railing_length": 380,
+        "railing_height": 130,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen18.pcd": {
+        "railing_length": 350,
+        "railing_height": 130,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen19.pcd": {
+        "railing_length": 350,
+        "railing_height": 140,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen20.pcd": {
+        "railing_length": 400,
+        "railing_height": 135,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen21.pcd": {
+        "railing_length": 350,
+        "railing_height": 100,
+        "num_poles": 3,
+        "num_boards": 3
+    },
+    "scen22.pcd": {
+        "railing_length": 175,
+        "railing_height": 130,
+        "num_poles": 2,
+        "num_boards": 3
+    }
+}
