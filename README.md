@@ -58,12 +58,14 @@ File_id = 21.
 In the case that we wanted a [set of](https://www.swi-prolog.org/pldoc/doc_for?object=setof/3) all the File_ids we could run the following query, which is finding all the file_records-predicates and add the File_id to the SetOfFileIDs. A caviat is that we have to tell prolog that the File_name variable is allowed to change, which is done with the "File_name^"
 ```console
 ?- setof(File_id, File_name^file_record(File_name, File_id), SetOfFileIDs).
+
 SetOfFileIDs = [0, 1, 2, 3, 4, 5, 6, 7, 8|...].
 ```
 The above can also be performed with the [findall](https://www.swi-prolog.org/pldoc/doc_for?object=findall/3) function, which will automatically make different combinations of the File_name
 
 ```console
 ?- findall(File_id, file_record(File_name, File_id), SetOfFileIDs).
+
 SetOfFileIDs = [0, 1, 2, 3, 4, 5, 6, 7, 8|...].
 ```
 There are also other approaches [all solutions](https://www.swi-prolog.org/pldoc/man?section=allsolutions) to a Goal
@@ -75,12 +77,14 @@ If we want to find all files that violates the regulation of having a toeboard, 
 
 ```console
 ?- findall(File_id, violation(toe_board_missing, File_id), SetOfFileIDs).
+
 SetOfFileIDs = [1, 12, 13, 20].
 ```
 #### What violations were found for a specific file?
 Similar to the previos list cretion, we could ask for all the violations that are identified in a file
 ```console
 ?- File_id = 12, findall(Violations, violation(Violations, File_id), SetOfViolations).
+
 File_id = 12,
 SetOfViolations = [toe_board_missing, middle_pole_missing].
 ```
@@ -95,6 +99,7 @@ Board_id = 87
 Knowing the actual id of the board we can also investigate the detailed record, which will be based on the object-fact from the knowledge base
 ```console
 ?- File_id=12, Object_id=87, object(File_id, Object_id, Type, Geometry).
+
 File_id = 12,
 Object_id = 87,
 Type = board,
@@ -104,10 +109,11 @@ Geometry = seg(1, 120, 433, 123).
 After studying File_id 12 what class does it actually belong to? we can figure this out with the classify-predicate as shown below.
 ```console
 ?- File_id=12, classify_file(File_id, File_name, Class_id, Class_name, Fit).
+
 File_id = Class_id, Class_id = 12,
 File_name = "../Scaled/scen13.pcd",
 Class_name = "Combination 1",
 Fit = 0 ;
 ```
 ### Sum up
-The provided example briefly shows how different queries can be tweaked to return different information about the knowledge base. Please have a look in the rule_base.pl file for additional ideas of queries that might be interesting. 
+The provided example briefly shows how different queries can be tweaked to return different information about the knowledge base. Please have a look in the rule_base.pl file for additional ideas of queries that might be interesting.
