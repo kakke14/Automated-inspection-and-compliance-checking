@@ -116,4 +116,4 @@ Class_name = "Combination 1",
 Fit = 0 ;
 ```
 ### Sum up
-The provided example briefly shows how different queries can be tweaked to return different information about the knowledge base. Please have a look in the rule_base.pl file for additional ideas of queries that might be interesting.
+The provided example briefly shows how different queries can be tweaked to return different information about the knowledge base. Please have a look in the [rule base.pl](./prolog/rule_base.pl) file for additional ideas of queries that might be interesting.
